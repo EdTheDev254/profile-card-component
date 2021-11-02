@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url('./images/bg-pattern-bottom.svg'), url("./images/bg-pattern-top.svg");
+  background-position: right bottom, left top;
+  background-origin: border-box, content-box;
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+.card {
+  display: block;
+  border-radius:20px;
+  box-shadow:2px 2px 40px hsl(0,10%,40%);
+}
+
+.maincard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:10%;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  margin-bottom: -5px;
+  width: 100%;
+
+}
+
+#bgImage {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/*Golden Point*/
+#victorImage {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
+.container2 {
+  text-align: center;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 5px;
+}
+
+.container2 h1 {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.container2 span {
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+
+.container2 p {
+  font-size: 15px;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 20px;
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+.innercontainer3 {
+  padding: 0 30px;
+}
+
+.innercontainer3 h1 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.innercontainer3 p {
+  color: hsl(0, 0%, 59%);
+  font-size: 14px;
+  font-weight:400;
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container3 {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media(orientation:landscape) {
+  .maincard {
+    margin: 10% 30%;
+  }
+}
+
+@media(min-width:768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-bottom.svg');
+    background-position: right bottom;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: 700px;
+  }
+
+  .card {
+    margin: 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
