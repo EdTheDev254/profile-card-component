@@ -131,8 +131,8 @@ hr {
     background-size: 700px;
   }
 
-  .card {
-    margin: 50%;
+  .maincard {
+    margin:0;
   }
 }
 
